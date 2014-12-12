@@ -21,17 +21,17 @@
         {"size":2, "type":"number", "name":"width"},
         {"size":2, "type":"number", "name":"height"},
         {"size":2, "type":"number", "name":"delay"},
-        {"size":26, "type":"reserved}
+        {"size":26, "type":"reserved"}
     ],
     "direction":[
         {"size":2, "type":"number", "name":"num_frames"},
-        {"size":6, "type":"reserved},
+        {"size":6, "type":"reserved"},
         {"size":2, "type":"string", "name"}
     ],
     "frame":[
         {"size":2, "type":"number", "name":"frame_index"},
         {"size":2, "type":"number", "name":"delay"},
-        {"size":4, "type":"reserved},
+        {"size":4, "type":"reserved"},
     ],
     "directions":[
         "north",
