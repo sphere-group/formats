@@ -15,7 +15,7 @@
     ],
     "v2_direction":[
         {"size":2, "type":"number", "name":"num_frames"},
-        {"size":62, "type":"reserved}
+        {"size":62, "type":"reserved"}
     ],
     "v2_frame":[
         {"size":2, "type":"number", "name":"width"},
