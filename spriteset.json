@@ -15,23 +15,23 @@
     ],
     "v2_direction":[
         {"size":2, "type":"number", "name":"num_frames"},
-        {"size":62, "type":"reserved}
+        {"size":62, "type":"reserved"}
     ],
     "v2_frame":[
         {"size":2, "type":"number", "name":"width"},
         {"size":2, "type":"number", "name":"height"},
         {"size":2, "type":"number", "name":"delay"},
-        {"size":26, "type":"reserved}
+        {"size":26, "type":"reserved"}
     ],
     "direction":[
         {"size":2, "type":"number", "name":"num_frames"},
-        {"size":6, "type":"reserved},
-        {"size":2, "type":"string", "name"}
+        {"size":6, "type":"reserved"},
+        {"size":2, "type":"string", "name":"name"}
     ],
     "frame":[
         {"size":2, "type":"number", "name":"frame_index"},
         {"size":2, "type":"number", "name":"delay"},
-        {"size":4, "type":"reserved},
+        {"size":4, "type":"reserved"}
     ],
     "directions":[
         "north",
