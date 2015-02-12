@@ -1,7 +1,7 @@
 {
     "header":[
-        {"size":2, "type":"number", "name":"map_x"},
-        {"size":2, "type":"number", "name":"map_y"},
+        {"size":2, "type":"number", "name":"x"},
+        {"size":2, "type":"number", "name":"y"},
         {"size":2, "type":"number", "name":"layer"},
         {"size":2, "type":"number", "name":"type"},
         {"size":8, "type":"reserved"}
@@ -19,6 +19,6 @@
     ],
     "trigger":[
         {"size":2, "type":"string", "name":"trigger_function"}
-    ]
-
+    ],
+    "type":{"person":1, "trigger":2}
 }
