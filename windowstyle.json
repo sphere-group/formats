@@ -1,0 +1,40 @@
+{
+    "signature":".rws",
+    "header":[
+        {"size":4, "type":"fixed_string", "name":"signature"},
+        {"size":2, "type":"number", "name":"version"},
+        {"size":1, "type":"number", "name":"edge_width"},
+        {"size":1, "type":"number", "name":"background_type"},
+        {"size":4, "type":"number", "name":"upper_left_color"},
+        {"size":4, "type":"number", "name":"upper_right_color"},
+        {"size":4, "type":"number", "name":"lower_right_color"},
+        {"size":4, "type":"number", "name":"lower_left_color"},
+        {"size":1, "type":"number", "name":"left_offset"},
+        {"size":1, "type":"number", "name":"top_offset"},
+        {"size":1, "type":"number", "name":"right_offset"},
+        {"size":1, "type":"number", "name":"bottom_offset"},
+        {"size":36, "type":"reserved"}
+    ],
+    "component":[
+        {"size":2, "type":"number", "name":"w"},
+        {"size":2, "type":"number", "name":"h"}
+    ],
+    "background_types":[
+        "tiled",
+        "stretched",
+        "gradient",
+        "tiled_gradient",
+        "stretched_gradient"
+    ],
+    "component_names":[
+        "upperleft",
+        "top",
+        "upperright",
+        "right",
+        "lowerright",
+        "bottom",
+        "lowerleft",
+        "left",
+        "background"
+    ]
+}
