@@ -1,0 +1,14 @@
+{
+    "signature":".rfn",
+    "header":{
+        {"size":4, "type":"fixed_string", "name":"signature"},
+        {"size":2, "type":"number", "name":"version"},
+        {"size":2, "type":"number", "name":"num_chars"},
+        {"size":248, "type":"reserved"}
+    },
+    "character":{
+        {"size":2, "type":"number", "name":"w"},
+        {"size":2, "type":"number", "name":"h"},
+        {"size":28, "type":"reserved"}
+    }
+}
